@@ -18,4 +18,5 @@ Weather.Units=metric
 spring.kafka.producer.bootstrap-servers=http://localhost:9092
 spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
 spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/0c45ae34-73ef-47f7-b18e-6ac3eb8aae58)
