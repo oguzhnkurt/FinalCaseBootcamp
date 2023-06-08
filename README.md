@@ -20,6 +20,7 @@ spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.Strin
 spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer 
    
 ````
+![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/240dfc5f-cfdc-4e05-b2df-6291c4f4a281)
 
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/3ce03f8e-a62e-418e-986c-7ddc2165785e)
 
