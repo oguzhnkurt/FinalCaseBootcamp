@@ -1,5 +1,5 @@
 # FinalCaseBootcamp 📂
-Projemde database olarak PostgreSQL kullandım ve "finalcase" adında bir DB oluşturdum. Pom.xml gerekli dependency'ler eklendikten sonra spring boot projesine girerek resources içerisindeki ""application.properties"" dosyasında gerekli değişiklikler yapmalıyız.
+I used PostgreSQL as database in my project and created a DB named "finalcase".After adding the required dependencies in Pom.xml, we must enter the spring boot project and make the necessary changes in the ""application.properties"" file in the resources.
 
 ````
  server.port=8080
@@ -56,7 +56,22 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
 
 ➔User can display 5 Day / 3 Hour Weather Forecast for Desired City
 
-## API Documentation** 🖥
+## AuthenticationController
+AuthenticationController is a controller class that handles HTTP requests for user authentication and registration. Relevant endpoints are:
+
+PostMapping /register     : Allows the user to register.
+
+PostMapping /authenticate : Provides user authentication.
+
+## WeatherController
+
+WeatherController, Uses OpenWeatherMap API to get weather forecasts.
+
+GetMapping /getWeather: Returns weather forecasts.
+
+
+
+## API Documentation 🖥
 
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/0c45ae34-73ef-47f7-b18e-6ac3eb8aae58)
 
