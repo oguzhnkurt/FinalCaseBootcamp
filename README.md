@@ -1,8 +1,8 @@
 # FinalCaseBootcamp
 Projemde database olarak PostgreSQL kullandım ve "finalcase" adında bir DB oluşturdum. Pom.xml gerekli dependency'ler eklendikten sonra spring boot projesine girerek resources içerisindeki ""application.properties"" dosyasında gerekli değişiklikler yapılmalı.
 
-
-server.port=8080
+````
+ server.port=8080
 
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/finalcase
@@ -17,7 +17,11 @@ Weather.Units=metric
 #KAFKA CONFIG
 spring.kafka.producer.bootstrap-servers=http://localhost:9092
 spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
-spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer 
+   
+````
+
+
 
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/75563361-71e8-4bb0-9964-feea30771147)
 
