@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/Apiv1")
+@RequestMapping("/api/v1/weather")
 public class WeatherController {
     private WeatherService weatherService;
 

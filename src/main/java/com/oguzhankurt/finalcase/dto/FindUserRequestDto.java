@@ -9,7 +9,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserRegisterRequestDto {
-    public String username;
-    public String password;
+public class FindUserRequestDto {
+    public String Username;
 }
