@@ -1,5 +1,5 @@
-# FinalCaseBootcamp
-Projemde database olarak PostgreSQL kullandım ve "finalcase" adında bir DB oluşturdum. Pom.xml gerekli dependency'ler eklendikten sonra spring boot projesine girerek resources içerisindeki ""application.properties"" dosyasında gerekli değişiklikler yapılmalı.
+# FinalCaseBootcamp 📂
+Projemde database olarak PostgreSQL kullandım ve "finalcase" adında bir DB oluşturdum. Pom.xml gerekli dependency'ler eklendikten sonra spring boot projesine girerek resources içerisindeki ""application.properties"" dosyasında gerekli değişiklikler yapmalıyız.
 
 ````
  server.port=8080
@@ -20,11 +20,48 @@ spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.Strin
 spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer 
    
 ````
-![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/240dfc5f-cfdc-4e05-b2df-6291c4f4a281)
+## Technologies
+➜ Java 17
 
-![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/3ce03f8e-a62e-418e-986c-7ddc2165785e)
+➜ Maven 
+
+➜ Spring Boot
+
+➜ PostgreSQL
+
+➜ Jwt Service
+
+➜ Docker
+
+➜ Spring Data Jpa
+
+➜ Lombok
+
+➜ FeignClient
+
+➜ Kafka
+
+➜ Security
+
+➜ Mapstruct
+
+
+## Features 
+
+➔User can Login
+
+➔User can Sign up
+
+➔Username and city must be unique
+
+➔User can display 5 Day / 3 Hour Weather Forecast for Desired City
+
+## API Documentation** 🖥
+
+![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/0c45ae34-73ef-47f7-b18e-6ac3eb8aae58)
+
 
 
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/75563361-71e8-4bb0-9964-feea30771147)
 
-![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/0c45ae34-73ef-47f7-b18e-6ac3eb8aae58)
+
