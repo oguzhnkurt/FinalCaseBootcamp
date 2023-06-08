@@ -1,5 +1,7 @@
 # FinalCaseBootcamp
 Projemde database olarak PostgreSQL kullandım ve "finalcase" adında bir DB oluşturdum. Pom.xml gerekli dependency'ler eklendikten sonra spring boot projesine girerek resources içerisindeki ""application.properties"" dosyasında gerekli değişiklikler yapılmalı.
+
+
 server.port=8080
 
 
