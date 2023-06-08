@@ -21,6 +21,7 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
    
 ````
 
+![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/3ce03f8e-a62e-418e-986c-7ddc2165785e)
 
 
 ![image](https://github.com/oguzhnkurt/FinalCaseBootcamp/assets/73943292/75563361-71e8-4bb0-9964-feea30771147)
